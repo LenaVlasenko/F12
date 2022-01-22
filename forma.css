@@ -67,12 +67,6 @@ input[type="password"]{
 .blok2 input[type="text"]{
 	width: 42%;
 }
-.sub{
-	display: flex;
-	justify-content: flex-end;
-	margin-right: 3%;
-	margin-top: 3%;
-}
 .check1{
 	margin-top: 3%;
 }
@@ -87,4 +81,8 @@ select{
 	border: none;
 	border-bottom: 2px solid #ccc;
 	background-color: #eee;
+}
+hr{
+	margin-top: 2%;
+	margin-bottom: 3%;
 }
