@@ -1,0 +1,83 @@
+@media (max-width: 1200px){
+	.blok2 input[type="text"]{
+    width: 80%;
+	}
+	select {
+    width: 84%;
+	}
+	.blok1 input[type="text"]{
+    width: 80%;
+	}
+}
+@media (max-width: 900px){
+	.os{
+		width: 90%;
+		height: auto;
+	}
+	.two{
+		display: block;
+		margin: 2%;
+	}
+	.blok{
+		width: 100%;
+	}
+	.blok1{
+		width: 100%;
+		margin: 0px;
+	}
+	.blok2{
+		display: flex;
+	}
+	.blok1 input[type="text"] {
+    width: 45%;
+	}
+	select {
+    width: 46%;
+	}
+	.blok11 input[type="text"]{
+    width: 45%;
+	}
+	.check1{
+		margin: 0% 2%
+	}
+
+
+}
+@media (max-width: 600px){
+	.os{
+		width: 98%;
+		height: 92%;
+	}
+	.blok1, .blok2{
+		display: flex;
+		flex-direction: column;
+	}
+	
+	select{
+		width: 94%;
+	}
+	.blok1 input[type="text"]{
+		width: 92%;
+	}
+	.blok2 input[type="text"]{
+		width: 92%;
+	}
+	input[type="password"]{
+		width: 80%;
+	}
+	.text{
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+	}
+	.text input[type="text"]{
+		width: 80%;
+	}
+	input[type="password"]:nth-child(3){
+		margin-left: 10%;
+	}
+	.check{
+		font-size: 12px;
+	}
+
+}
